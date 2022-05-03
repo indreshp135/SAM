@@ -33,20 +33,20 @@ body {
 
 #sliderContainer {
     width: 100%;
-    max-width: 640px;
-    padding: 56px 40px;
+    max-width: 340px;
+    padding: 16px 10px;
     border-radius: 40px;
     box-shadow: 0px 8px 40px rgba(128, 128, 128, 0.15);
 }
 
 #sliderContainer>div {
-    margin-bottom: 48px;
+    margin-bottom: 8px;
 }
 
 .tick-slider-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 24px;
+    /* margin-bottom: 4px; */
 }
 
 .tick-slider-header>h5 {
@@ -68,7 +68,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
     font-family: "Hind Madurai", sans-serif;
     font-size: 18px;
     color: var(--gray);
@@ -258,10 +258,10 @@ input[type="checkbox"][id^="myCheckbox"] {
 
 label {
     border: 1px solid #fff;
-    padding: 10px;
+    padding: 0 10px;
     display: block;
     position: relative;
-    margin: 10px;
+    /* margin: 10px; */
     cursor: pointer;
 }
 
@@ -284,10 +284,15 @@ label:before {
 }
 
 label img {
-    height: 100px;
-    width: 100px;
+    height: 40px;
+    width: 40px;
     transition-duration: 0.2s;
     transform-origin: 50% 50%;
+}
+
+ul {
+    margin: 0;
+    padding-inline-start: 0;
 }
 
  :checked+label {
@@ -320,8 +325,8 @@ button {
     align-self: center;
     font-size: 17px;
     font-weight: 400;
-    margin: 20px;
-    padding: 20px 40px;
+    margin: 10px;
+    padding: 10px 20px;
     text-align: center;
     color: black;
     font-family: Pangolin;
